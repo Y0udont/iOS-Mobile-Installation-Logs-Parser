@@ -1,4 +1,4 @@
-#Script to extract to process the mobile instalation logs. Normalize output and import to sqlite database for report generation.
+#Script to extract to process the mobile installation logs. Normalize output and import to sqlite database for report generation.
 import sys, os, re, sqlite3, glob
 import easygui as gui
 from pathlib import Path
